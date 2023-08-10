@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+*{
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background: #481A50;
+    overflow-x: hidden;
+}
+
+.nav-bar{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    background: #481A50;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    right: 50px;
+    cursor: pointer;
+}
+
+.nav-bar img{
+    height: 100%;
+}
+
+.btn{
+    color: #FFF;
+    background:transparent;
+    border: solid 1px #c49cd6;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+btn:hover{
+    background-color: #c49cd6;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.conteiner{
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 50vw;
+    height: 92vh;
+}
+
+.conteiner-text{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 100%;
+    color: #FFF; 
+}
+
+.text1{
+    width: 80%;
+    background-color: #ffffff55;
+    padding: 20px;
+    border: 2px #FFF solid;
+    border-radius: 10px;  
+}
+
+.text2{
+    width: 80%;
+    background-color: #ffffff55;
+    padding: 20px;
+    border: 2px #FFF solid;
+    border-radius: 10px;
+    
+}
+
+.text3{
+    width: 80%;
+    background-color: #ffffff55;
+    padding: 20px;
+    border: 2px #FFF solid;
+    border-radius: 10px;
+}
+
+.right{
+    width: 50vw;
+    height: 92vh;
+}
+
+.right img{
+    width: 80%;
+    height: 100%;   
+}
+
+@media only screen and (max-width: 850px) {
+
+    .right{
+        display: none;
+    }
+
+    .conteiner{
+        flex-direction: column;
+        height: 92vh;
+    }
+
+    .conteiner-text{
+        height: 100%;
+        margin-top: 1rem;
+    }
+
+    .left{
+        justify-content: center;
+        align-items: center;
+        width: 100vw; 
+        height: 92vh;
+    }
+
+    .text1{
+        padding:  20px;
+        bottom: 1rem;
+    }
+
+    .text2{
+        padding:  20px;
+    }
+
+    .text3{
+        padding:  20px;
+    }
+}
