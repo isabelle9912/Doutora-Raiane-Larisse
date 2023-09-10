@@ -122,7 +122,7 @@ button:hover{
 }
 
 .redes-links{
-    width: 100%;
+    width: 30%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0;
@@ -246,10 +246,12 @@ bnt:hover{
     .rodape-mobile{
         display: block;
         padding: 1rem;
+
     }
 
     .rodape-mobile  a{
-        color: #ac69ca;   
+        color: #ac69ca;
+        padding: 0 10px; 
     }
 
     .bnt-mobile{
